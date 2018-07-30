@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Blur Toast</string>
+    <string name="label_show_toast">Show Toast</string>
+</resources>
