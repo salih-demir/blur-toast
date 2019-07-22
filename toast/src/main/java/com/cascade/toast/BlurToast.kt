@@ -22,7 +22,6 @@ object BlurToast {
 
     @SuppressLint("InflateParams")
     fun buildToast(activity: Activity, message: String, blur: Float): Toast {
-        //Toast has not a parent view, pass root as null and suppress the lint.
         val viewToast = LayoutInflater.from(activity).inflate(R.layout.content_toast, null)
         val viewWindow = activity.window.decorView
         val bitmapWindow = BitmapUtil.getViewVisual(viewWindow)
